@@ -38,6 +38,8 @@ public class Mini_calulator {
             case '%':
                 System.out.println(number1 % number2);
                 break;
+            default:
+                System.out.println("Invalid");
         }
     }
     
