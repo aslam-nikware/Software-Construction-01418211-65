@@ -25,8 +25,13 @@ public class EventCount {
                 count++;
             }
         }
+
         
         System.out.println("All even count number : " + count);
         System.out.println("sum of even number  : " + result);
+
+        start.close()
+        end.close()
+        
     }
 }
